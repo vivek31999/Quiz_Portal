@@ -1,0 +1,38 @@
+.navbar{
+    margin-top: 20px;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+.quiz-box{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid rgb(92, 127, 243);
+    align-items: center;
+    overflow-y: scroll;
+    height: 200px;
+}
+
+.quiz-head{
+    background-color: rgb(92, 127, 243);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+#quiz{
+    line-height: 35px;
+    width: 80px;
+    background-color: rgb(139, 139, 245);
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+
+
